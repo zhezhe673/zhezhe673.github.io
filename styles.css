@@ -216,6 +216,30 @@ h3 {
   stroke-linejoin: round;
 }
 
+.visit-counter {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.visit-counter span {
+  color: var(--ruby);
+  font-size: 0.74rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.visit-counter strong {
+  color: var(--ink);
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
 .section {
   padding: clamp(24px, 4vw, 44px) 0 clamp(64px, 8vw, 96px);
 }
